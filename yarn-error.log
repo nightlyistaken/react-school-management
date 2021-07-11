@@ -1,0 +1,43 @@
+Arguments: 
+  /home/divy/.nvm/versions/node/v14.17.1/bin/node /home/divy/.nvm/versions/node/v14.17.1/bin/yarn
+
+PATH: 
+  /home/divy/.zig:/home/divy/android_sdk//emulator:/home/divy/android_sdk//cmdline-tools/latest/bin:/home/divy/.deno/bin:/home/divy/.zig:/home/divy/android_sdk//emulator:/home/divy/android_sdk//cmdline-tools/latest/bin:/home/divy/.nvm/versions/node/v14.17.1/bin:/home/divy/.deno/bin:/home/divy/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/divy/Desktop/gh/react-school-thing/package.json: Unexpected token o in JSON at position 230
+      at JSON.parse (<anonymous>)
+      at /home/divy/.nvm/versions/node/v14.17.1/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/home/divy/.nvm/versions/node/v14.17.1/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/divy/.nvm/versions/node/v14.17.1/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "react-school-thing",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1"
+    },
+    "devDependencies": {
+      "estrella": "^1.0.9"
+    }
+  } ok
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
